@@ -1,0 +1,153 @@
+header{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 0;
+    height: 250px;
+    background-image: url(webp/nakaniwa.webp);
+    background-size: cover;
+    background-position: top;
+}
+
+.keyakiFes{
+    top: 40px;
+    left: 20px;
+}
+main{
+    margin: 20px 4%;
+    min-height: 600px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+li{
+    padding: 5px 20px;
+    list-style: none;
+    color: rgb(46, 40, 87);
+    background-color: aliceblue;
+    border: solid 1px lightsteelblue;
+    border-radius: 5px;
+
+}
+.flex{
+    overflow: hidden;
+}
+.floor{
+    flex-shrink: 0;
+    margin-top: -90px;
+    padding-top: 90px;
+    width: 100%;
+}
+.floorMap{
+    display: flex;
+    padding: 0;
+    height: fit-content;
+    width: 100%;
+    border: double 3px lightsteelblue;
+
+}
+
+.mapImg{
+    width: 70%;
+}
+.mapImg img{
+    width: 100%;
+    /* filter: drop-shadow(0 0 2px lightsteelblue); */
+}
+
+.mapInfo{
+    position: relative;
+    height: 100%;
+    padding: 5px 0;
+    width: 30%;
+    /* border-top: double 3px lightsteelblue;
+    border-bottom: double 3px lightsteelblue; */
+
+
+}
+
+/* .mapInfo::before, .mapInfo::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+}
+.mapInfo::before{
+    top: 0;
+    background: linear-gradient(aliceblue, rgb(0,0,0,0));
+}
+.mapInfo::after{
+    bottom: 0;
+    background: linear-gradient(rgb(0,0,0,0), lightsteelblue);
+} */
+
+
+.mapText{
+    overflow-y: scroll;
+    height: fit-content;
+    padding: 0 5px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.mapText::-webkit-scrollbar{
+    display: none;
+  }
+/* .first div{
+    margin-bottom: 5px;
+    padding: 5px;
+    height: fit-content;
+    border: solid 1px lightsteelblue;
+    border-radius: 5px;
+} */
+.mapInfo h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightsteelblue;
+}
+
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+    header{
+        height: 150px;
+    }
+    .keyakiFes{
+        transform: scale(60%) translate(-35%, -70%);
+    }
+
+    .floorMap{
+        display: block;
+        height: fit-content;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mapImg, .mapInfo{
+        width: 100%;
+    }
+    .mapText{
+        height: fit-content;
+        width: 100%;
+    }
+    .mapInfo
+    {
+        height: fit-content;
+    }
+    .mapInfo h3{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
+
+
+}
