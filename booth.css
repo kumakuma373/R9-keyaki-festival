@@ -40,8 +40,8 @@ iframe{
 .imageImage{
     flex-shrink: 0;
     margin: 10px;
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 200px;
     background-color: lavender;
     border-radius: 5px;
 }
