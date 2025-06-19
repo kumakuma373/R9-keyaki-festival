@@ -407,12 +407,16 @@ main{
   overflow: hidden;
   max-width: 100%;
 }
-.imageImage{
-    flex-shrink: 0;
-    margin: 10px;
-    height: 200px;
-    width: 150px;
-    background-color: lavender;
+.imageImage {
+    margin: 10px auto;
+    width: 600px;
+    height: auto; 
+    text-align: left; 
+}
+.imageImage img {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 5px;
 }
 
