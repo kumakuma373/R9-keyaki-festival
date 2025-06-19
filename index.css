@@ -408,10 +408,10 @@ main{
   max-width: 100%;
 }
 .imageImage{
-    flex-shrink: 1;
+    flex-shrink: 0;
     margin: 10px;
-    height: 10px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
     background-color: lavender;
     border-radius: 5px;
 }
