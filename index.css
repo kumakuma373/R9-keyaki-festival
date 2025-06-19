@@ -424,7 +424,7 @@ main{
   height: 100%;
 }
 
-.image-container {
+.uketuke-image-container {
   position: relative;
   padding-bottom: 66.66%; /* 例: 3:2の比率にしたい場合 */
   height: 0;
@@ -433,7 +433,7 @@ main{
   border-radius: 8px;
 }
 
-.image-container img {
+.uketuke-image-container img {
   position: absolute;
   top: 0;
   left: 0;
