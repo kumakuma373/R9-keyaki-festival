@@ -408,7 +408,6 @@ main{
   max-width: 100%;
 }
 .imageImage{
-    position: absolute;
     flex-shrink: 0;
     margin: 10px;
     height: 150px;
