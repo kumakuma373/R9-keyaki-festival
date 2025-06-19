@@ -410,7 +410,7 @@ main{
 .imageImage{
     flex-shrink: 1;
     margin: 10px;
-    height: 150px;
+    height: 10px;
     width: 100px;
     background-color: lavender;
     border-radius: 5px;
