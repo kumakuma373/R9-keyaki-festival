@@ -408,7 +408,7 @@ main{
   max-width: 100%;
 }
 .imageImage{
-    flex-shrink: 0;
+    flex-shrink: 1;
     margin: 10px;
     height: 150px;
     width: 100px;
