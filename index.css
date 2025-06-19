@@ -405,7 +405,7 @@ main{
   padding-bottom: 56.25%; /* 16:9 アスペクト比 */
   height: 0;
   overflow: hidden;
-  max-width: 560px;
+  max-width: 100%;
 }
 .imageImage{
     flex-shrink: 0;
